@@ -4,6 +4,7 @@ const initialState = {
   count: 0,
 };
 
+// Creating a reducer which takes the state and the "order" from actions on how to mutate the state
 export function countReducer(state = initialState, action) {
   switch (action.type) {
     case INCREMENT:

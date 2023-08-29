@@ -1,9 +1,9 @@
-//actions.js
-
+// Declaring types
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
 const RESET = "RESET";
 
+// Creating objects for each type, that hold the type and a value
 const increment = (value) => ({
   type: INCREMENT,
   value: value,

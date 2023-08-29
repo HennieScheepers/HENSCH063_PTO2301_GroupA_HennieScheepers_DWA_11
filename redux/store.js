@@ -1,5 +1,4 @@
-//store.js
-
+// Creates an function that returns an object that additional functionality
 export function createStore(reducer) {
   let state;
   const listeners = [];
@@ -16,7 +15,7 @@ export function createStore(reducer) {
   function subscribe(listener) {
     listeners.push(listener);
   }
-
-  dispatch({}); // Initial state setup
+  // Setting up our initial state
+  dispatch({});
   return { getState, dispatch, subscribe };
 }
