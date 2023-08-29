@@ -46,14 +46,4 @@ function reset() {
 
 resetButton.addEventListener("click", reset);
 
-// /**
-//  * @type {HTMLElement}
-//  */
-// const closeButton = dialog.querySelector('sl-button[slot="footer"]');
-// closeButton.addEventListener("click", () => dialog.hide());
-
-// incButton.addEventListener("click", increment);
-// decButton.addEventListener("click", decrement);
-// resetButton.addEventListener("click", reset);
-
 updateCountDisplay();
